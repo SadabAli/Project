@@ -122,7 +122,7 @@ p {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 23%;
+    padding-top: 6%;
 }
 
 .bbsrBTN {
@@ -210,29 +210,42 @@ p {
     background: #F5F5F5;
 }
 
-.midbg{
-    background:radial-gradient(#fff, #ffd6d6);
+.midbg {
+    background: radial-gradient(#fff, #ffd6d6);
 }
 
-footer{
+footer {
     padding: 30px 40px 30px 40px;
     background-color: #3f3e3e;
     font-family: Corbel;
-    font-size: 13px;/*Vary font-size as required*/
-  }
-  a{
+    font-size: 13px;
+    /*Vary font-size as required*/
+}
+
+a {
     color: #b2b2b2;
-  }
-  a:hover{
+}
+
+a:hover {
     color: #fff;
-  }
-  .vcard{
+}
+
+.vcard {
     color: #b2b2b2;
-  }
-  ul {
+}
+
+ul {
     list-style-type: none;
-  }
-  img{
+}
+
+img {
     display: block;
     margin: auto;
-  }
+}
+
+.map {
+    margin-top: 116px;
+    margin-left: 269px;
+}
+
+.map p {}
