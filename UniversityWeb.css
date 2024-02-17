@@ -1,22 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     padding: 5px;
-    margin : 0;
+    margin: 0;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     padding: 20px;
 
 }
 
-nav{
+nav {
     flex: 1;
-    text-align:right ;
+    text-align: right;
 }
 
-nav ul{
+nav ul {
     /* used to remove bullet point */
     display: inline-block;
     list-style-type: none;
@@ -28,13 +28,13 @@ nav ul li {
     margin-right: 20px;
 }
 
-a{
+a {
     /* used to remove the underlne  */
     text-decoration: none;
 }
 
 
-.container{
+.container {
     max-width: 1300px;
     margin: auto;
     padding-right: 25px;
@@ -42,39 +42,39 @@ a{
 }
 
 
-.line1{
-    font-family:'Times New Roman', Times, serif;
-    font-size:xx-large;
+.line1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
 }
 
-.line2{
+.line2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
 }
 
-.logo{
+.logo {
     padding: 0;
     margin: 0;
 }
 
-.row{
+.row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.line2{
+.line2 {
     flex-basis: 50%;
     min-width: 300px;
 }
 
-.line2 img{
-    max-width: 100%;
-    padding: 50px 0;
+.line2 img {
+    max-width: 110%;
+    padding: 9px 0;
 }
 
-.btn{
+.btn {
     display: inline-block;
     background-color: blue;
     color: aliceblue;
@@ -83,6 +83,133 @@ a{
     border-radius: 30%;
 }
 
-.header{
-    background: radial-gradient(#fff,#ffd6d6);
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+/* -----course---- */
+
+/* .course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 3px;
+} */
+
+.Placement {
+    margin: 5%;
+    /* padding: 0px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bbsr h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 23%;
+}
+
+.bbsrBTN {
+    text-align: center;
+
+    /* display: inline-block; */
+    /* background-color: blue; */
+    /* color: aliceblue; */
+    padding: 8px 30px;
+    /* margin: 30px 0; */
+
+}
+
+/* ------Facilities------------ */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.facility-col1 {
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+
+.facility-col1 img {
+    width: 100%;
+    border-radius: 5px;
+    height: 285px;
+    width: 471px;
+
+}
+
+.facility-col1 h3 {
+    /* background-color: red; */
+    width: 105px;
+    height: 50px;
+}
+
+.facility-col1 p {
+    /* background-color: red; */
+    width: 849px;
+    height: 193px;
+}
+
+
+.facility-col2 img {
+    /* width: 100%; */
+    display: block;
+    /* border-radius: 5px; */
+    height: 285px;
+    width: 471px;
+    justify-content: center;
+    margin: auto;
+}
+
+.facility-col2 h3 {
+    /* background-color: red; */
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.facility-col2 p {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-left: 307px;
+    text-align: center;
+    /* background-color: blue; */
+    height: 167px;
+    width: 918px;
+}
+
+
+.facility-col3 img {
+    float: right;
+}
+
+.bg {
+    background: #F5F5F5;
+}
+
+.midbg{
+    background:radial-gradient(#fff, #ffd6d6);
 }
