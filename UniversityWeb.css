@@ -213,3 +213,26 @@ p {
 .midbg{
     background:radial-gradient(#fff, #ffd6d6);
 }
+
+footer{
+    padding: 30px 40px 30px 40px;
+    background-color: #3f3e3e;
+    font-family: Corbel;
+    font-size: 13px;/*Vary font-size as required*/
+  }
+  a{
+    color: #b2b2b2;
+  }
+  a:hover{
+    color: #fff;
+  }
+  .vcard{
+    color: #b2b2b2;
+  }
+  ul {
+    list-style-type: none;
+  }
+  img{
+    display: block;
+    margin: auto;
+  }
