@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: "Ubuntu", sans-serif;
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+/* ...................................................................... Navbar ............................... */
+
+#homelogo {
+    height: 9vh;
+    margin: 7px 34px;
+}
+
+
+#navbar {
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 11vh;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    padding: 6px 17px;
+    margin: 8px 6px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    color: aqua;
+}
+
+#navbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    color: chartreuse;
+    background-color: rgb(235, 32, 32);
+    margin: auto;
+    display: block;
+}
+
+#navbar ul li a:hover::after {
+    width: 100%;
+}
+
+
+/* .......................................................... First Section ................................*/
+
+.fsection {
+    height: 64vh;
+}
+
+.fsection img {
+    width: 100%;
+    z-index: -1;
+}
+
+.heading {
+    position: absolute;
+    top: 38%;
+    left: 31%;
+    font-size: 33px;
+    background-color: #eed0d0b5;
+    color: var(--secondary-color);
+    padding: 7px 19px;
+}
+
+
+/* ............................................................ Second Section ........................................ */
+
+.container {
+    display: flex;
+    background-color: var(--secondary-color);
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 16px 23px;
+    position: relative;
+    left: 14%;
+}
+
+.container a {
+    margin: 0px 7px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 12px;
+    font-family: var(--font-family);
+}
+
+.container a:hover {
+    color: rgb(2, 120, 2);
+}
+
+
+/* ................................................................ Third Section ................................ */
+
+
+.tsection {
+    border: 2px solid red;
+}
+
+.tsection h1 {
+    text-align: center;
+    font-size: 41px;
+    margin-top: 17px;
+    font-family: var(--font-family);
+}
+
+.container1 {
+    height: 62vh;
+    padding: 30px 35px;
+}
+
+.container1 .box li {
+    margin: 14px;
+    padding: 12px;
+    list-style: none;
+    font-size: 17px;
+    font-family: var(--font-family);
+}
+
+.container1 .box {
+    display: grid;
+    justify-items: center;
+}
+
+.box {
+    justify-items: end;
+}
+
+.container1 .box li a {
+    margin-left: 35px;
+}
+
+
+/* ..................... ................................... Fourth section .........................*/
+
+section.frtsection {
+    height: 31vh;
+    background-color: #607cca81;
+}
+
+.container3 .box-x {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 18vw;
+    justify-content: center;
+    /* margin: 41px 27px; */
+    padding: 21px 15px;
+}
+
+.box-1 ul {
+    list-style: none;
+}
+
+.box-1 ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.box-1 ul li a:hover {
+    color: rgb(115, 8, 110);
+}
+
+.box-2 img {
+    height: 19vh;
+}
+
+.box-3 {
+    height: 25vh;
+    width: 22vw;
+}
+
+.box-3 p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 4px;
+    padding: 8px 3px;
+}
+
+.box-3 ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.box-3 .ficon {
+    font-size: 34px;
+    text-align: center;
+    padding: 5px 19px;
+    margin: 16px 25px;
+}
+
+.box-3 .ficon a {
+    margin: 0px 10px;
+}
+
+
+/* ............................................................ Footer Part ........................*/
+
+footer {
+    background-color: rgba(90, 0, 0, 0.849);
+    font-size: 17px;
+    color: var(--primary-color);
+
+    padding: 12px 12px;
+    text-align: center;
+    font-family: var(--font-family);
+}

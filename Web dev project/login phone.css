@@ -1,0 +1,30 @@
+/* .container {
+    color: var(--secondary-color);
+    box-shadow: 4px 7px 57px 2px var(--primary-color);
+    border-radius: 50px;
+    height: 58vh;
+    width: 53vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+    font-family: var(--font-family);
+    text-shadow: 6px 3px 15px black;
+    flex-direction: column;
+}
+
+
+ */
