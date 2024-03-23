@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../../AppData/Roaming/Python/Python312/Scripts"
+		},
+		{
+			"path": "../../python"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../DAA"
+		},
+		{
+			"path": "../../java"
+		},
+		{
+			"path": "../../Data Structure"
+		},
+		{
+			"path": "../../C_PROGRAM"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

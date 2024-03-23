@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-color:black;
+  --secondary-color:white;
+  --font-family: "Baloo Bhai 2", sans-serif;
+  --font-weight: bold;
+}
+body {
+  background: url("login image.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+.container {
+  color:var(--secondary-color);
+  position: absolute;
+  top: 24%;
+  left: 31%;
+  padding: 12px;
+  box-shadow: 4px 7px 57px 2px var(--primary-color);
+  border-radius: 46px;
+}
+
+h1 {
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  padding: 2px;
+  font-family: var(--font-family);
+  text-shadow: 6px 3px 15px black;
+}
+
+div h1 img {
+  height: 51px;
+  margin-right: 13px;
+}
+
+div i {
+  margin: 4px;
+  padding: 8px 15px;
+
+}
+
+input {
+  margin: 6px;
+  padding: 4px;
+  width: 85%;
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(6, 39, 137);
+  color:var(--secondary-color);
+}
+
+select {
+  /* margin: 14px 5px; */
+  padding: 10px;
+  width: 87%;
+  font-size: 17px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-weight: var(--font-weight);
+  background: none;
+  border: none;
+  border-bottom: 3px solid rgb(6, 39, 137);
+  color:var(--secondary-color);
+}
+
+option {
+  background-color: rgb(119 131 165);
+  font-weight: var(--font-weight);
+}
+
+div a {
+  margin: 23px;
+  padding: 12px;
+  font-size: 23px;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  color:var(--secondary-color);
+}
+
+.btn {
+  /* margin: 18px 14px; */
+  width: 15%;
+  /* font-size: 20px; */
+  padding: 2px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  text-align: center;
+  width: 88%;
+  margin-left: 27px;
+  border-radius: 19px;
+  cursor: pointer;
+  border: 2px solid rgb(6, 39, 137);
+  transition-property:background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+button:hover {
+  background-color: rgb(100, 119, 215);
+}
+
+
+/* @media only screen and (max-width:600px) {
+  .container {
+    color: var(--secondary-color);
+    position: absolute;
+    top: 19%;
+    left: 16%;
+    padding: 12px;
+    box-shadow: 4px 7px 57px 2px var(--primary-color);
+    border-radius: 46px;
+    height: 29vh;
+    width: 66vw;
+}
+h1 {
+  font-size: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  font-family: var(--font-family);
+  text-shadow: 6px 3px 15px black;
+}
+div h1 img {
+  height: 26px;
+  margin-right: 5px;
+}
+input {
+  margin: 6px;
+  padding: 4px;
+  width: 60%;
+  font-size: 10px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(6, 39, 137);
+  color: var(--secondary-color);
+}
+select {
+  padding: 10px;
+  width: 69%;
+  font-size: 6px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-weight: var(--font-weight);
+  background: none;
+  border: none;
+  border-bottom: 3px solid rgb(6, 39, 137);
+  color: var(--secondary-color);
+}
+div a {
+  margin: 16px;
+  padding: 24px;
+  font-size: 9px;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  color: var(--secondary-color);
+}
+.btn {
+  padding: 2px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  text-align: center;
+  width: 92%;
+  margin-left: 15px;
+  margin-top: 13px;
+  cursor: pointer;
+  border: 2px solid rgb(6, 39, 137);
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+} */
