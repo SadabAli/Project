@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Ubuntu", sans-serif;
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+/* ......................................................... Navbar ..................................*/
+#homelogo {
+    height: 9vh;
+    margin: 7px 34px;
+}
+
+
+#navbar {
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 11vh;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    padding: 6px 17px;
+    margin: 8px 6px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+#navbar ul li a:hover{
+    color: aqua;
+}
+
+#navbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: rgb(225, 0, 0);
+    margin: auto;
+    display: block;
+}
+
+#navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.search {
+    display: block;
+    padding: 9px;
+    margin-bottom: 7px;
+    position: absolute;
+    left: 82%;
+}
+
+i.fa.fa-search {
+    font-size: 22px;
+    margin: 6px;
+    color: var(--primary-color);
+}
+
+div input {
+    font-size: 12px;
+    border-radius: 14px;
+    width: 13vw;
+    padding: 4px;
+}
+
+/* ....................................................... First Section ............................*/
+.heading {
+    font-size: 26px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    color: rgba(90, 0, 0, 0.849);
+}
+
+.sectionpara {
+    font-size: 22px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    top: 26%;
+    left: 21%;
+    color: rgba(90, 0, 0, 0.849);
+}
+
+/* .fsection::before{
+    content: "";
+    position: absolute;
+    background-image: url("./cutm pkd campus.jpg");
+    background-repeat: no-repeat;
+    height: 81%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+} */
+
+.fsection {
+    margin-bottom: 15%;
+}
+
+.fsection #sectionbg {
+    height: 50%;
+    width: 100%;
+    filter: blur(2px);
+}
+
+
+
+/* section div #img1 {
+    height: 22vh;
+    display: block;
+    position: absolute;
+    top: 12%;
+    left: 2%;
+} */
+
+section div #img2 {
+    height: 19vh;
+    display: block;
+    position: absolute;
+    top: 12%;
+    left: 4%;
+}
+
+section div #img3 {
+    height: 13vh;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+
+/* ......................................................... Second Section  .............................. */
+
+.box1 {
+    border: 3px solid var(--secondary-color);
+    position: absolute;
+    top: 61%;
+    height: 40vh;
+    width: 24vw;
+    left: 14%;
+    margin: 9px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 43, 86, 0.668);
+    box-shadow: 1px 1px 14px 5px rgb(0, 0, 0);
+}
+
+.box1 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    ;
+    text-decoration: underline;
+    text-shadow: 10px 10px 10px 10px grey;
+}
+
+.box1 p {
+    font-size: 18px;
+    margin: 6px 9px;
+    padding: 9px 4px;
+    text-align: justify;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.box2 {
+    border: 3px solid var(--secondary-color);
+    position: absolute;
+    top: 61%;
+    height: 40vh;
+    width: 24vw;
+    left: 40%;
+    margin: 9px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 43, 86, 0.668);
+    box-shadow: 1px 1px 14px 5px rgb(0, 0, 0);
+}
+
+.box2 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    ;
+    text-decoration: underline;
+}
+
+.box2 p {
+    font-size: 18px;
+    margin: 6px 9px;
+    padding: 9px 4px;
+    text-align: justify;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.box3 {
+    border: 3px solid var(--secondary-color);
+    position: absolute;
+    top: 61%;
+    height: 40vh;
+    width: 24vw;
+    left: 66%;
+    margin: 9px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 43, 86, 0.668);
+    box-shadow: 1px 1px 14px 5px rgb(0, 0, 0);
+}
+
+.box3 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    ;
+    text-decoration: underline;
+}
+
+.box3 p {
+    font-size: 18px;
+    margin: 6px 9px;
+    padding: 9px 4px;
+    text-align: justify;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+/* ........................................................ Third Section part .................................*/
+
+.tsection h1 {
+    font-size: 39px;
+    text-align: center;
+    margin: 16px;
+    padding: 25px;
+    font-family: var(--font-family);
+}
+
+.tsection h3 {
+    display: block;
+    position: absolute;
+    left: 84%;
+    padding: 7px;
+    bottom: -21%;
+}
+
+.tsection h3 a {
+    text-decoration: none;
+    font-size: 22px;
+    color: brown;
+    text-shadow: 10px 10px 10px 10px brown;
+    font-family: var(--font-family);
+}
+
+.tsection h3 a:hover {
+    color: rgb(12, 198, 189);
+}
+
+.tsection h3 i {
+    font-size: 14px;
+    padding: 5px;
+    margin: 2px;
+    position: absolute;
+    top: 33%;
+}
+
+.basketball img {
+    height: 45vh;
+    width: 33vw;
+    display: flex;
+    position: relative;
+    left: 66%;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 15vw;
+    justify-content: center;
+}
+
+.item {
+    background-color: rgb(140, 147, 180);
+    height: 60vh;
+    width: 23vw;
+    border: 3px solid var(--secondary-color);
+    padding: 12px;
+    margin: 17px 0px;
+    text-align: center;
+    border-radius: 27px;
+}
+
+.tsection .container1 .item .img2 {
+    height: 26vh;
+    margin: 13px 0px;
+    border-radius: 21px;
+    box-shadow: 1px 7px 12px 4px var(--secondary-color);
+}
+
+.tsection .container1 .item p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 3px;
+    padding: 10px;
+}
+
+.tsection .container1 .item .img1 {
+    height: 26vh;
+    margin: 13px 0px;
+    border-radius: 21px;
+    box-shadow: 1px 7px 12px 4px var(--secondary-color);
+}
+
+.tsection .container1 .item p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 3px;
+    padding: 10px;
+}
+
+.tsection .container1 .item .img3 {
+    width: 17vw;
+    height: 16vh;
+    margin: 13px 0px;
+    border-radius: 21px;
+    box-shadow: 1px 7px 12px 4px var(--secondary-color);
+}
+
+.tsection .container1 .item p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 3px;
+    padding: 10px;
+    font-family: var(--font-family);
+}
+
+/* ............................................................... Fourth Section...... ......................*/
+
+.Frtsection h1 {
+    text-align: center;
+    font-size: 41px;
+    margin: 30px 17px;
+    padding: 7px 12px;
+    font-family: var(--font-family);
+}
+
+.Frtsection h3 a {
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+.Frtsection h3 {
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    left: 84%;
+    /* padding: 7px; */
+    /* bottom: -21%; */
+}
+
+
+.Frtsection h3 a:hover {
+    color: rgb(12, 198, 189);
+}
+
+.Frtsection h3 i {
+    font-size: 14px;
+    padding: 5px;
+    margin: 2px;
+    position: absolute;
+    top: 33%;
+}
+
+.container2 {
+    display: grid;
+    grid-template-rows: 200px 238px;
+    grid-gap: 4vw;
+    justify-content: center;
+    background-color: rgb(224, 211, 178);
+}
+
+.items {
+    padding: 12px;
+    text-align: center;
+    border-radius: 27px;
+}
+
+.Frtsection .container2 .items .img1 {
+    height: 28vh;
+    box-shadow: 1px 7px 12px 4px var(--secondary-color);
+    border-radius: 7%;
+    display: flex;
+    position: absolute;
+    left: 8%;
+}
+
+.Frtsection h2 {
+    font-size: 27px;
+    margin: 7px;
+    font-family: var(--font-family);
+}
+
+.Frtsection .container2 .items p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 3px;
+    padding: 17px;
+    width: 45vw;
+    font-family: var(--font-family);
+}
+
+.Frtsection .container2 .items .img2 {
+    width: 17vw;
+    height: 22vh;
+    box-shadow: 1px 7px 12px 4px var(--secondary-color);
+    border-radius: 7%;
+    position: absolute;
+    left: 73%;
+}
+
+
+
+/*............................................................ Fifth section ......................................*/
+
+section.fftsection {
+    height: 87vh;
+}
+
+.fftsection h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 17px 19px;
+    padding: 14px 18px;
+    font-family: var(--font-family);
+}
+
+.map {
+    position: absolute;
+    left: 34%;
+}
+
+section div iframe {
+    height: 53vh;
+    width: 34vw;
+}
+
+.map p {
+    font-size: 19px;
+    text-align: center;
+    margin: 23px 15px;
+    padding: 17px 15px;
+    font-family: var(--font-family);
+}
+
+/* ................................................................ Sixth Section ....................................*/
+
+section.sxtsection {
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(202, 204, 153);
+}
+
+.sxtsection h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.sxtsection .btn {
+    margin: 13px 10px;
+    padding: 5px 5px;
+    background-color: rgb(215 171 171);
+}
+
+.sxtsection button a {
+    font-size: 19px;
+    margin: 0px;
+    padding: 7px 4px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+
+
+/* ............................................................ seventh section ...................................*/
+
+section.sevsection {
+    height: 31vh;
+    background-color: #607cca81;
+}
+
+.container3 .box-x {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 18vw;
+    justify-content: center;
+    /* margin: 41px 27px; */
+    padding: 21px 15px;
+}
+
+.box-1 ul {
+    list-style: none;
+}
+
+.box-1 ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.box-1 ul li a:hover{
+    color: rgb(115, 8, 110);
+}
+
+.box-2 img {
+    height: 19vh;
+}
+
+.box-3 {
+    height: 25vh;
+    width: 22vw;
+}
+
+.box-3 p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 4px;
+    padding: 8px 3px;
+}
+
+.box-3 ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.box-3 .ficon {
+    font-size: 34px;
+    text-align: center;
+    padding: 5px 19px;
+    margin: 16px 25px;
+}
+
+.box-3 .ficon a {
+    margin: 0px 10px;
+}
+
+/* ............................................................. Footer Part .........................................*/
+
+footer {
+    background-color: rgba(90, 0, 0, 0.849);
+    font-size: 17px;
+    color: var(--primary-color);
+    ;
+    padding: 12px 12px;
+    text-align: center;
+    font-family: var(--font-family);
+}
