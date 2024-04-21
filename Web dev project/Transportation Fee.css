@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: "Ubuntu", sans-serif;
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+/* ...................................................................... Admission Navbar ............................... */
+
+#homelogo {
+    height: 9vh;
+    margin: 7px 34px;
+}
+
+
+#Admissionnavbar {
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 11vh;
+}
+
+#Admissionnavbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+#Admissionnavbar ul li {
+    /* color: white; */
+    list-style: none;
+    padding: 6px 17px;
+    margin: 8px 6px;
+}
+
+#Admissionnavbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+#Admissionnavbar ul li a:hover {
+    color: aqua;
+}
+
+#Admissionnavbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    color: chartreuse;
+    background-color: rgb(235, 32, 32);
+    margin: auto;
+    display: block;
+}
+
+#Admissionnavbar ul li a:hover::after {
+    width: 100%;
+}
+
+/* .......................................................... First Section ................................*/
+
+.fstsection {
+    height: 64vh;
+}
+
+.fstsection img {
+    width: 100%;
+    height: 67vh;
+    z-index: -1;
+}
+
+.heading {
+    position: absolute;
+    top: 39%;
+    left: 33%;
+    font-size: 30px;
+    background-color: #eed0d0b5;
+    color: var(--secondary-color);
+    padding: 7px 19px;
+    font-family: var(--font-family);
+}
+
+.navbox {
+    /* border: 2px solid red; */
+    display: grid;
+    /* align-items: start; */
+    justify-content: start;
+}
+
+.navbox h3 {
+    font-size: 24px;
+    margin: 5px 27px;
+    font-family: var(--font-family);
+}
+
+.navbox {
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: start;
+    margin-left: 46px;
+    /* width: 14%; */
+    margin-top:25px;
+}
+
+.navbox ul li {
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 6px 5px;
+    margin: 4px;
+    border-radius: 8px;
+    list-style: none;
+}
+.navbox ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.navbox ul li a:hover{
+    color: #ff6f00;
+}
+
+
+.sndsection{
+    border: 2px solid red;
+    display: grid;
+}
+
+/* .................................................................... Secondary NavBar .............................................. */
+
+section.secondary-nav {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navcontainer2 {
+    border: 3px solid #9c9ca8bd;
+    width: 68vw;
+    height: 42vh;
+    margin-top: 30px;
+    margin-right: 62px;
+    margin-bottom: 31px;
+    padding: 3px 51px;
+    background-color: #cedfc59c;
+    box-shadow: 5px 9px 22px 3px black;
+    border-radius: 98px 13px;
+}
+
+.navcontainer2 h1 {
+    font-size: 32px;
+    font-family: var(--font-family);
+    padding: 20px 2px;
+    align-self:center;
+}
+
+.navcontainer2 p {
+    font-style: italic;
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+
+.navcontainer2 h2 {
+    /* border: 2px solid red; */
+    background-color: #961616;
+    font-size: 22px;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 43px 9px;
+    text-align: center;
+}
+
+.subnavcontainer2 .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8px;
+    text-decoration: underline;
+}
+    
+.subnavcontainer2 .box{
+    font-size: 20px;
+    color: #041fb4;
+}
+
+
+
+
+/* ............................................................ Sev7 section ...................................*/
+
+section.se7section {
+    height: 31vh;
+    background-color: #607cca81;
+}
+
+.se7container3 .box-x {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 18vw;
+    justify-content: center;
+    /* margin: 41px 27px; */
+    padding: 21px 15px;
+}
+
+.box-1 ul {
+    list-style: none;
+}
+
+.box-1 ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.box-1 ul li a:hover {
+    color: rgb(115, 8, 110);
+}
+
+.box-2 img {
+    height: 19vh;
+}
+
+.box-3 {
+    height: 25vh;
+    width: 22vw;
+}
+
+.box-3 p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 4px;
+    padding: 8px 3px;
+}
+
+.box-3 ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+.box-3 .ficon {
+    font-size: 34px;
+    text-align: center;
+    padding: 5px 19px;
+    margin: 16px 25px;
+    /* transition: all 0.5s ease; */
+}
+
+/* .box-3 .ficon:hover{
+    transform: scale(1.2);
+} */
+
+.box-3 .ficon a {
+    margin: 0px 10px;
+}
+
+.box-3 .ficon a #Hover_Effect {
+    transition: all 0.5s ease;
+}
+
+.box-3 .ficon a #Hover_Effect:hover {
+    transform: scale(1.2);
+    /* box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.559); */
+}
+
+
+/* ............................................................. Footer Part .........................................*/
+
+footer {
+    background-color: rgba(90, 0, 0, 0.849);
+    font-size: 17px;
+    color: var(--primary-color);
+    padding: 12px 12px;
+    text-align: center;
+    font-family: var(--font-family);
+}

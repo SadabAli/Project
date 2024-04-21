@@ -79,11 +79,16 @@
 .heading {
     position: absolute;
     top: 38%;
-    left: 31%;
+    left: 35%;
     font-size: 33px;
     background-color: #eed0d0b5;
     color: var(--secondary-color);
     padding: 7px 19px;
+}
+
+.heading h1 {
+    font-size: 46px;
+    font-family: var(--font-family);
 }
 
 
@@ -123,9 +128,9 @@
 /* ................................................................ Third Section ................................ */
 
 
-.tsection {
+/* .tsection {
     border: 2px solid red;
-}
+} */
 
 .tsection h1 {
     text-align: center;
