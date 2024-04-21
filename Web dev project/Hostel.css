@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ..................navigation.................. */
+
+#homelogo {
+    height: 9vh;
+    margin: 7px 34px;
+}
+
+
+#navbar {
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 11vh;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    padding: 6px 17px;
+    margin: 8px 6px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    color: aqua;
+}
+
+#navbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    color: chartreuse;
+    background-color: rgb(235, 32, 32);
+    margin: auto;
+    display: block;
+}
+
+#navbar ul li a:hover::after {
+    width: 100%;
+}
