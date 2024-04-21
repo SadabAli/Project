@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     color: aqua;
 }
 
@@ -83,6 +83,21 @@ div input {
     width: 13vw;
     padding: 4px;
 }
+
+/* ....................................................... Whatsapp ......................................... */
+
+#whatsapp {
+    position: fixed;
+    bottom: 43px;
+    right: 19px;
+    z-index: 12;
+    transition: all 0.5s ease;
+}
+
+#whatsapp:hover {
+    transform: scale(1.2);
+}
+
 
 /* ....................................................... First Section ............................*/
 .heading {
@@ -509,6 +524,14 @@ section.sxtsection {
     margin: 13px 10px;
     padding: 5px 5px;
     background-color: rgb(215 171 171);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.sxtsection .btn:hover {
+    background-color: rgb(220, 136, 136);
+    box-shadow: inset 1px 1px 9px 1px black;
 }
 
 .sxtsection button a {
@@ -548,7 +571,7 @@ section.sevsection {
     font-family: var(--font-family);
 }
 
-.box-1 ul li a:hover{
+.box-1 ul li a:hover {
     color: rgb(115, 8, 110);
 }
 
@@ -579,10 +602,24 @@ section.sevsection {
     text-align: center;
     padding: 5px 19px;
     margin: 16px 25px;
+    /* transition: all 0.5s ease; */
 }
+
+/* .box-3 .ficon:hover{
+    transform: scale(1.2);
+} */
 
 .box-3 .ficon a {
     margin: 0px 10px;
+}
+
+.box-3 .ficon a #Hover_Effect {
+    transition: all 0.5s ease;
+}
+
+.box-3 .ficon a #Hover_Effect:hover {
+    transform: scale(1.2);
+    /* box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.559); */
 }
 
 /* ............................................................. Footer Part .........................................*/
@@ -591,7 +628,6 @@ footer {
     background-color: rgba(90, 0, 0, 0.849);
     font-size: 17px;
     color: var(--primary-color);
-    ;
     padding: 12px 12px;
     text-align: center;
     font-family: var(--font-family);
