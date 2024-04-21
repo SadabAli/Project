@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,8 +10,7 @@
     --secondary-color: black;
 }
 
-/* ...................................................................... Navbar ............................... */
-
+/* ......................................................... Navbar ..................................*/
 #homelogo {
     height: 9vh;
     margin: 7px 34px;
@@ -29,7 +29,7 @@
 #navbar ul {
     display: flex;
     align-items: center;
-    margin-left: 10rem;
+    margin-left: 4rem;
 }
 
 #navbar ul li {
@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-#navbar ul li a:hover {
+#navbar ul li a:hover{
     color: aqua;
 }
 
@@ -54,8 +54,7 @@
     content: "";
     width: 0;
     height: 2px;
-    color: chartreuse;
-    background-color: rgb(235, 32, 32);
+    background-color: rgb(225, 0, 0);
     margin: auto;
     display: block;
 }
@@ -64,36 +63,54 @@
     width: 100%;
 }
 
-
-/* .......................................................... First Section ................................*/
-
-.fsection {
-    height: 64vh;
+.search {
+    display: block;
+    padding: 9px;
+    margin-bottom: 7px;
+    position: absolute;
+    left: 82%;
 }
 
-.fsection img {
-    width: 100%;
+i.fa.fa-search {
+    font-size: 22px;
+    margin: 6px;
+    color: var(--primary-color);
+}
+
+div input {
+    font-size: 12px;
+    border-radius: 14px;
+    width: 13vw;
+    padding: 4px;
+}
+
+
+/* ................................................... section Part ...........................................................*/
+
+.ffsection {
+    /* border: 2px solid red; */
+    height: 311px;
+}
+
+.ffsection img {
+    height: 45vh;
+    width: 99vw;
     z-index: -1;
 }
 
-.heading {
+.ffsection h1{
+    display: flex;
     position: absolute;
-    top: 38%;
-    left: 35%;
-    font-size: 33px;
-    background-color: #eed0d0b5;
+    top: 30%;
+    left: 36%;
+    font-size: 44px;
+    margin: 19px 21px;
+    padding: 4px 16px;
     color: var(--secondary-color);
-    padding: 7px 19px;
+    background-color: rgba(175, 177, 210, 0.496);
 }
 
-.heading h1 {
-    font-size: 46px;
-    font-family: var(--font-family);
-}
-
-
-/* ............................................................ Second Section ........................................ */
-
+/*................................................ ssection ......................................................*/
 .container {
     display: flex;
     background-color: var(--secondary-color);
@@ -108,14 +125,14 @@
     list-style: none;
     margin: 16px 23px;
     position: relative;
-    left: 14%;
+    /* left: 6%; */
 }
 
 .container a {
     margin: 0px 7px;
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 16px;
+    font-size: 14px;
     padding: 12px;
     font-family: var(--font-family);
 }
@@ -128,11 +145,11 @@
 /* ................................................................ Third Section ................................ */
 
 
-/* .tsection {
+/* .ttsection {
     border: 2px solid red;
 } */
 
-.tsection h1 {
+.ttsection h1 {
     text-align: center;
     font-size: 41px;
     margin-top: 17px;
@@ -164,7 +181,6 @@
 .container1 .box li a {
     margin-left: 35px;
 }
-
 
 /* ..................... ................................... Fourth section .........................*/
 
