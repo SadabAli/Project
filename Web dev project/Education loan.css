@@ -72,13 +72,14 @@
 
 .fstsection img {
     width: 100%;
+    height: 67vh;
     z-index: -1;
 }
 
 .heading {
     position: absolute;
     top: 39%;
-    left: 41%;
+    left: 33%;
     font-size: 30px;
     background-color: #eed0d0b5;
     color: var(--secondary-color);
@@ -143,7 +144,7 @@ section.secondary-nav {
 .navcontainer2 {
     border: 3px solid #9c9ca8bd;
     width: 68vw;
-    height: 42vh;
+    height: 49vh;
     margin-top: 30px;
     margin-right: 62px;
     margin-bottom: 31px;
@@ -164,6 +165,59 @@ section.secondary-nav {
     font-style: italic;
     font-family: var(--font-family);
     font-size: 20px;
+}
+
+.navcontainer2 h2 {
+    /* border: 2px solid red; */
+    background-color: #961616;
+    font-size: 22px;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 43px 9px;
+    text-align: center;
+}
+
+.subnavcontainer2 .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8px;
+    /* text-decoration: underline; */
+}
+
+.subnavcontainer2 .box #box-1 img{
+    width: 20vw;
+}
+
+.subnavcontainer2 .box #box-1 p{
+    font-size: 2rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.subnavcontainer2 .box #box-2 img{
+    width: 20vw;
+}
+
+.subnavcontainer2 .box #box-2 p{
+    font-size: 2rem;
+    font-style: normal;
+    text-align: center;
+}
+
+.subnavcontainer2 .box #box-3 img{
+    width: 20vw;
+}
+
+.subnavcontainer2 .box #box-3 p{
+    font-size: 2rem;
+    font-style: normal;
+    text-align: center;
+}
+    
+.subnavcontainer2 .box{
+    font-size: 20px;
+    color: #070707;
 }
 
 

@@ -72,13 +72,14 @@
 
 .fstsection img {
     width: 100%;
+    height: 67vh;
     z-index: -1;
 }
 
 .heading {
     position: absolute;
     top: 39%;
-    left: 41%;
+    left: 40%;
     font-size: 30px;
     background-color: #eed0d0b5;
     color: var(--secondary-color);
@@ -105,7 +106,7 @@
     justify-content: start;
     margin-left: 46px;
     /* width: 14%; */
-    margin-top:25px;
+    margin-top:123px;
 }
 
 .navbox ul li {
@@ -140,10 +141,10 @@ section.secondary-nav {
 }
 
 
-.navcontainer2 {
+.Hostel {
     border: 3px solid #9c9ca8bd;
     width: 68vw;
-    height: 42vh;
+    height: 82vh;
     margin-top: 30px;
     margin-right: 62px;
     margin-bottom: 31px;
@@ -153,18 +154,57 @@ section.secondary-nav {
     border-radius: 98px 13px;
 }
 
-.navcontainer2 h1 {
+.Hostel h1 {
     font-size: 32px;
     font-family: var(--font-family);
     padding: 20px 2px;
     text-align:center;
 }
 
-.navcontainer2 p {
+.Hostel p {
     font-style: italic;
     font-family: var(--font-family);
     font-size: 20px;
 }
+
+.Hostel h2 {
+    /* border: 2px solid red; */
+    background-color: #961616;
+    font-size: 22px;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 43px 9px;
+    text-align: center;
+}
+
+.Hostel .subnavcontainer2 p{
+    font-style: normal;
+}
+
+.Hostel .subnavcontainer22 p{
+    font-style: normal;
+}
+
+.Hostel .subnavcontainer223 p{
+    font-style: normal;
+}
+
+.Hostel .subnavcontainer224 p{
+    font-style: normal;
+}
+
+/* .subnavcontainer2 .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8px;
+} */
+/* text-decoration: underline; */
+
+/* .subnavcontainer2 .box{
+    font-size: 20px;
+    color: #041fb4;
+} */
 
 
 /* ............................................................ Sev7 section ...................................*/
