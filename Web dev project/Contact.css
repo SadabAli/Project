@@ -140,10 +140,10 @@ section.secondary-nav {
 }
 
 
-.navcontainer2 {
+.Contact {
     border: 3px solid #9c9ca8bd;
-    width: 68vw;
-    height: 42vh;
+    width: 81vw;
+    height: 83vh;
     margin-top: 30px;
     margin-right: 62px;
     margin-bottom: 31px;
@@ -153,15 +153,20 @@ section.secondary-nav {
     border-radius: 98px 13px;
 }
 
-.navcontainer2 h1 {
+.Contact h1 {
     font-size: 32px;
     font-family: var(--font-family);
     padding: 20px 2px;
     text-align:center;
 }
 
-.navcontainer2 p {
-    font-style: italic;
+.Contact h2{
+    font-family: var(--font-family);
+    color: blue;
+}
+
+.Contact p {
+    /* font-style: italic; */
     font-family: var(--font-family);
     font-size: 20px;
 }

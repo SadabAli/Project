@@ -105,7 +105,7 @@
     justify-content: start;
     margin-left: 46px;
     /* width: 14%; */
-    margin-top:25px;
+    margin-top:112px;
 }
 
 .navbox ul li {
@@ -140,10 +140,10 @@ section.secondary-nav {
 }
 
 
-.navcontainer2 {
+.CUTM {
     border: 3px solid #9c9ca8bd;
     width: 68vw;
-    height: 42vh;
+    height: 77vh;
     margin-top: 30px;
     margin-right: 62px;
     margin-bottom: 31px;
@@ -153,17 +153,16 @@ section.secondary-nav {
     border-radius: 98px 13px;
 }
 
-.navcontainer2 h1 {
+.CUTM h1 {
     font-size: 32px;
     font-family: var(--font-family);
     padding: 20px 2px;
     text-align:center;
 }
 
-.navcontainer2 p {
-    font-style: italic;
-    font-family: var(--font-family);
-    font-size: 20px;
+.CUTM img {
+    width: 50vw;
+    margin: 2px 160px;
 }
 
 
