@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: "Ubuntu", sans-serif;
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+/* ......................................................... Navbar ..................................*/
+#homelogo {
+    height: 9vh;
+    margin: 7px 34px;
+}
+
+
+#navbar {
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 11vh;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    padding: 6px 17px;
+    margin: 8px 6px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+#navbar ul li a:hover{
+    color: aqua;
+}
+
+#navbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: rgb(225, 0, 0);
+    margin: auto;
+    display: block;
+}
+
+#navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.search {
+    display: block;
+    padding: 9px;
+    margin-bottom: 7px;
+    position: absolute;
+    left: 82%;
+}
+
+i.fa.fa-search {
+    font-size: 22px;
+    margin: 6px;
+    color: var(--primary-color);
+}
+
+div input {
+    font-size: 12px;
+    border-radius: 14px;
+    width: 13vw;
+    padding: 4px;
+}
+
