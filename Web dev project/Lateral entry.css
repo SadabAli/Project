@@ -78,7 +78,7 @@
 .heading {
     position: absolute;
     top: 39%;
-    left: 41%;
+    left: 37%;
     font-size: 30px;
     background-color: #eed0d0b5;
     color: var(--secondary-color);
@@ -140,7 +140,7 @@ section.secondary-nav {
 }
 
 
-.navcontainer2 {
+.Lateral {
     border: 3px solid #9c9ca8bd;
     width: 68vw;
     height: 42vh;
@@ -153,19 +153,27 @@ section.secondary-nav {
     border-radius: 98px 13px;
 }
 
-.navcontainer2 h1 {
+.Lateral h1 {
     font-size: 32px;
     font-family: var(--font-family);
     padding: 20px 2px;
     text-align:center;
 }
 
-.navcontainer2 p {
-    font-style: italic;
+.Lateral p {
+    /* font-style: italic; */
     font-family: var(--font-family);
     font-size: 20px;
 }
 
+.Lateral .lateral{
+    margin: 7px 16px;
+    font-family: var(--font-family);
+}
+
+.Lateral .lateral #list{
+    margin: 10px 66px;
+}
 
 /* ............................................................ Sev7 section ...................................*/
 
