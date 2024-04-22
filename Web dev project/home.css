@@ -169,6 +169,67 @@ section div #img3 {
     left: 46%;
 }
 
+
+/* ............................................................. TOP Requitor ................................ */
+
+/* section.requitor{
+    background-color: #9dc6c6;
+} */
+
+.requitor h1{
+    text-align: center;
+    font-family: var(--font-family);
+    padding-top: 21px;
+    font-size: 34px;
+    background-color: white;
+    padding-bottom: 14px;
+}
+
+.requitor .Container{
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 83%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    /* background-color: #9dc6c6; */
+}
+
+.requitor .Container .slide-Container{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(calc(-250px * 9));
+    }
+}
+
+.requitor .Container .slide-Container .slide-img{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.requitor .Container .slide-Container .slide-img img{
+    width: 100%;
+    transition: transform 1s;
+    border-radius: 20px;
+}
+
+.requitor .Container .slide-Container .slide-img img:hover{
+    transform: translateZ(20px);
+}
+
 /* ......................................................... Second Section  .............................. */
 
 .box1 {
